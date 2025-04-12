@@ -1,16 +1,46 @@
 # Entorno virtual
 env/
+venv/
+.env/
+.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Archivos temporales
 *.docx
 salida/
 .DS_Store
+*.tmp
+*.bak
+*.swp
+*~
 
 # IDEs y editores
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.code-workspace
 
 # Archivos de configuración
 .env
@@ -18,9 +48,37 @@ salida/
 .env.development.local
 .env.test.local
 .env.production.local
+*.ini
+config.py
 
 # Archivos de datos
 *.csv
 *.xlsx
 *.xls
 *.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs y reportes
+*.log
+logs/
+log/
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentación
+docs/_build/
+site/
+
+# Dependencias y paquetes
+pip-log.txt
+pip-delete-this-directory.txt
+requirements.txt.lock
+Pipfile.lock
