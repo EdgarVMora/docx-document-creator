@@ -1,0 +1,26 @@
+# Entorno virtual
+env/
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.docx
+salida/
+.DS_Store
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Archivos de configuración
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de datos
+*.csv
+*.xlsx
+*.xls
+*.json
